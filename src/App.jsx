@@ -10,7 +10,7 @@ import "./index.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/vkr-2026">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
