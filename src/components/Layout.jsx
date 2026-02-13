@@ -2,9 +2,9 @@ import { Outlet, Link } from "react-router-dom";
 
 export default function Layout() {
   return (
-    <div className="flex flex-col min-h-screen font-sans">
+    <div className="flex flex-col min-h-screen font-sans px-6 sm:px-8 md:px-12">
       {/* Навигация */}
-      <nav className="flex justify-center items-center flex-wrap gap-6 p-6 bg-gray-100 shadow-md">
+      <nav className="flex justify-center items-center flex-wrap gap-6 p-6 bg-gray-100 shadow-md rounded-xl">
         {[
           { name: "Главная", path: "/" },
           { name: "Контакты", path: "/contacts" },
@@ -28,7 +28,7 @@ export default function Layout() {
       </main>
 
       {/* Футер */}
-      <footer className="text-center text-gray-500 p-4 bg-gray-100">
+      <footer className="text-center text-gray-500 p-4 bg-gray-100 mt-6 rounded-xl">
         © 2026 Комышан
       </footer>
     </div>
