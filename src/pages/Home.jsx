@@ -1,3 +1,5 @@
+import logo from "../../public/logo.png";
+
 export default function Home() {
   return (
     <div
@@ -15,7 +17,7 @@ export default function Home() {
       {/* контент поверх картинки */}
       <div className="relative z-10 flex flex-col items-center space-y-4 px-6">
         <img
-          src="../../public/logo.png"
+          src={logo}
           alt="logo"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-white shadow-lg"
         />
