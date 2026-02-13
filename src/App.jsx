@@ -6,7 +6,6 @@ import Questions from "./pages/Questions";
 import Topics from "./pages/Topics";
 import TopicPage from "./pages/TopicPage";
 import Meetings from "./pages/Meetings";
-import "./index.css";
 
 function App() {
   return (
