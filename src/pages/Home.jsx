@@ -1,5 +1,3 @@
-import logo from "../assets/logo.png";
-
 export default function Home() {
   return (
     <div
@@ -17,8 +15,8 @@ export default function Home() {
       {/* контент поверх картинки */}
       <div className="relative z-10 flex flex-col items-center space-y-4 px-6">
         <img
-          src={logo}
-          alt="Комышан"
+          src="../logo.png"
+          alt="logo"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-white shadow-lg"
         />
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow-lg">
@@ -26,7 +24,7 @@ export default function Home() {
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl drop-shadow-md max-w-2xl">
           Здесь собрана информация по ВКР, методички, вопросы и записи встреч с
-          научным руководителем.
+          нашим научным руководителем.
         </p>
       </div>
     </div>
